@@ -1,0 +1,32 @@
+# ## Compiled Binaries ###
+# 'Go-study' 폴더에서 go build 시 생성되는 실행 파일
+Go-study
+Go-study.exe
+
+# ## Dependencies ###
+# 'go mod vendor' 명령어로 생성되는 의존성 폴더
+/vendor/
+
+# ## IDE/Editor Files ###
+# VS Code, GoLand 등 에디터 설정 파일
+.vscode/
+.idea/
+*.swp
+
+# ## OS Generated Files ###
+# macOS나 Windows에서 자동으로 생성하는 시스템 파일
+.DS_Store
+Thumbs.db
+
+# ## Log Files ###
+# 프로그램 실행 중 생성될 수 있는 로그 파일
+*.log
+
+# ## Test Coverage ###
+# go test 실행 시 생성되는 커버리지 분석 파일
+coverage.out
+profile.out
+
+# ## Environment Variables ###
+# API 키 등 민감 정보를 담는 환경변수 파일
+.env
