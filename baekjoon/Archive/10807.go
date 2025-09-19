@@ -3,15 +3,14 @@ package main
 import "fmt"
 
 func main() {
-	var a int
+	var a, x int
 	fmt.Scan(&a)
-	x := make([]int, a)
+	counts := make([]int, 201)
 	for i := 0; i < a; i++ {
 		var temp int
 		fmt.Scan(&temp)
-		x = append(x, temp)
+		counts[temp+100]++
 	}
-	for i := 0; i < a; i++ {
-
-	}
+	fmt.Scan(&x)
+	fmt.Println(counts[x+100])
 }
